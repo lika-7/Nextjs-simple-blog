@@ -12,7 +12,7 @@ export default function Home({allPostsData}:{
   }[]
 } ){
   return (
-    <div>
+    <div className={homeStyles.container}>
       <Head>
         <title>Hone Ahn</title>
       </Head>
